@@ -1,0 +1,53 @@
+
+
+.embeddedListWidgetBody .listWidget .tab-content {
+    padding: 0;
+}
+
+.tab-content {
+    border-left: 0px solid #ddd;
+    border-right: 0px solid #ddd;
+    padding: 0;
+}
+
+.titleScrollerHeader {
+    background: none;
+    padding: 0;
+    color: #00125e;
+    font-size: 16px;
+    font-weight: normal;
+    height: 20px;
+}
+
+.titleScrollerHeader .linkTab {
+    padding-right: 15px;
+}
+
+.linkTab:before {
+    height: 9px;
+    margin-top: -5px;
+    right: 2px;
+    width: 9px;
+}
+
+.glyphicon-chevron-left {
+    left: 6px;
+    width: 30px !important;
+    height: 30px;
+    border-left: 1px solid #535353;
+    border-bottom: 1px solid #535353;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.glyphicon-chevron-right {
+    right: 6px;
+    width: 30px !important;
+    height: 30px;
+    border-right: 1px solid #535353;
+    border-bottom: 1px solid #535353;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
